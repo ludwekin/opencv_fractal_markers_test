@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal -I/home/uni/桌面/opencv_fractal_markers_test/utils_fractal -I/home/uni/桌面/opencv_fractal_markers_test/3rdparty/eigen3 -I/home/uni/桌面/opencv_fractal_markers_test/src -isystem /usr/include/opencv4
 
-CXX_FLAGS =    -O0 -g3  -DDEBUG -D_DEBUG -DPRINT_DEBUG_MESSAGES -std=gnu++11
+CXX_FLAGS =    -O0 -g3  -DDEBUG -D_DEBUG -DPRINT_DEBUG_MESSAGES -std=gnu++17 -fPIE
 

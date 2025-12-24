@@ -434,6 +434,45 @@ fractal_tracker_tvec/fast:
 	$(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_tvec.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_tvec.dir/build
 .PHONY : fractal_tracker_tvec/fast
 
+#=============================================================================
+# Target rules for targets named fractal_create_5layer
+
+# Build rule for target.
+fractal_create_5layer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fractal_create_5layer
+.PHONY : fractal_create_5layer
+
+# fast build rule for target.
+fractal_create_5layer/fast:
+	$(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_create_5layer.dir/build
+.PHONY : fractal_create_5layer/fast
+
+#=============================================================================
+# Target rules for targets named fractal_print_marker_20cm
+
+# Build rule for target.
+fractal_print_marker_20cm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fractal_print_marker_20cm
+.PHONY : fractal_print_marker_20cm
+
+# fast build rule for target.
+fractal_print_marker_20cm/fast:
+	$(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build
+.PHONY : fractal_print_marker_20cm/fast
+
+#=============================================================================
+# Target rules for targets named fractal_tracker_5layer
+
+# Build rule for target.
+fractal_tracker_5layer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fractal_tracker_5layer
+.PHONY : fractal_tracker_5layer
+
+# fast build rule for target.
+fractal_tracker_5layer/fast:
+	$(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build
+.PHONY : fractal_tracker_5layer/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -463,9 +502,12 @@ help:
 	@echo "... aruco_test_markermap"
 	@echo "... aruco_tracker"
 	@echo "... fractal_create"
+	@echo "... fractal_create_5layer"
 	@echo "... fractal_pix2meters"
 	@echo "... fractal_print_marker"
+	@echo "... fractal_print_marker_20cm"
 	@echo "... fractal_tracker"
+	@echo "... fractal_tracker_5layer"
 	@echo "... fractal_tracker_tvec"
 .PHONY : help
 

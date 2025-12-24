@@ -24,11 +24,16 @@ if(CMAKE_COMPILER_IS_GNUCXX OR ${CMAKE_CXX_COMPILER_ID} STREQUAL "Clang")
 endif()
 
 # ------------------ 可执行文件 ------------------
-add_executable(fractal_create        utils_fractal/fractal_create.cpp)
-add_executable(fractal_tracker       utils_fractal/fractal_tracker.cpp)
-add_executable(fractal_print_marker  utils_fractal/fractal_print_marker.cpp)
-add_executable(fractal_pix2meters    utils_fractal/fractal_pix2meters.cpp)
-add_executable(fractal_tracker_tvec  utils_fractal/fractal_tracker_tvec.cpp)
+add_executable(fractal_create        fractal_create.cpp)
+add_executable(fractal_tracker       fractal_tracker.cpp)
+add_executable(fractal_print_marker  fractal_print_marker.cpp)
+add_executable(fractal_pix2meters    fractal_pix2meters.cpp)
+add_executable(fractal_tracker_tvec  fractal_tracker_tvec.cpp)
+
+# ------------------ 新的5层fractal程序 ------------------
+add_executable(fractal_create_5layer      fractal_create_5layer.cpp)
+add_executable(fractal_print_marker_20cm  fractal_print_marker_20cm.cpp)
+add_executable(fractal_tracker_5layer     fractal_tracker_5layer.cpp)
 
 # ------------------ 链接库 ------------------
 target_link_libraries(fractal_create       aruco ${OpenCV_LIBS} ${THREADLIB})
@@ -36,6 +41,11 @@ target_link_libraries(fractal_tracker      aruco ${OpenCV_LIBS} ${THREADLIB})
 target_link_libraries(fractal_print_marker aruco ${OpenCV_LIBS} ${THREADLIB})
 target_link_libraries(fractal_pix2meters   aruco ${OpenCV_LIBS} ${THREADLIB})
 target_link_libraries(fractal_tracker_tvec aruco ${OpenCV_LIBS} ${THREADLIB})
+
+# ------------------ 新程序链接库 ------------------
+target_link_libraries(fractal_create_5layer      aruco ${OpenCV_LIBS} ${THREADLIB})
+target_link_libraries(fractal_print_marker_20cm  aruco ${OpenCV_LIBS} ${THREADLIB})
+target_link_libraries(fractal_tracker_5layer     aruco ${OpenCV_LIBS} ${THREADLIB})
 
 # ------------------ 安装 ------------------
 install(TARGETS fractal_create
@@ -51,4 +61,14 @@ install(TARGETS fractal_pix2meters
         RUNTIME DESTINATION bin)
 
 install(TARGETS fractal_tracker_tvec
+        RUNTIME DESTINATION bin)
+
+# ------------------ 新程序安装 ------------------
+install(TARGETS fractal_create_5layer
+        RUNTIME DESTINATION bin)
+
+install(TARGETS fractal_print_marker_20cm
+        RUNTIME DESTINATION bin)
+
+install(TARGETS fractal_tracker_5layer
         RUNTIME DESTINATION bin)

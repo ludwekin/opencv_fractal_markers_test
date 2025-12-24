@@ -231,6 +231,48 @@ fractal_tracker_tvec/fast:
 	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_tvec.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_tvec.dir/build
 .PHONY : fractal_tracker_tvec/fast
 
+# Convenience name for target.
+utils_fractal/CMakeFiles/fractal_create_5layer.dir/rule:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_create_5layer.dir/rule
+.PHONY : utils_fractal/CMakeFiles/fractal_create_5layer.dir/rule
+
+# Convenience name for target.
+fractal_create_5layer: utils_fractal/CMakeFiles/fractal_create_5layer.dir/rule
+.PHONY : fractal_create_5layer
+
+# fast build rule for target.
+fractal_create_5layer/fast:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_create_5layer.dir/build
+.PHONY : fractal_create_5layer/fast
+
+# Convenience name for target.
+utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/rule:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/rule
+.PHONY : utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/rule
+
+# Convenience name for target.
+fractal_print_marker_20cm: utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/rule
+.PHONY : fractal_print_marker_20cm
+
+# fast build rule for target.
+fractal_print_marker_20cm/fast:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build
+.PHONY : fractal_print_marker_20cm/fast
+
+# Convenience name for target.
+utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/rule:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/rule
+.PHONY : utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/rule
+
+# Convenience name for target.
+fractal_tracker_5layer: utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/rule
+.PHONY : fractal_tracker_5layer
+
+# fast build rule for target.
+fractal_tracker_5layer/fast:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build
+.PHONY : fractal_tracker_5layer/fast
+
 fractal_create.o: fractal_create.cpp.o
 .PHONY : fractal_create.o
 
@@ -254,6 +296,30 @@ fractal_create.s: fractal_create.cpp.s
 fractal_create.cpp.s:
 	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.s
 .PHONY : fractal_create.cpp.s
+
+fractal_create_5layer.o: fractal_create_5layer.cpp.o
+.PHONY : fractal_create_5layer.o
+
+# target to build an object file
+fractal_create_5layer.cpp.o:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_create_5layer.dir/fractal_create_5layer.cpp.o
+.PHONY : fractal_create_5layer.cpp.o
+
+fractal_create_5layer.i: fractal_create_5layer.cpp.i
+.PHONY : fractal_create_5layer.i
+
+# target to preprocess a source file
+fractal_create_5layer.cpp.i:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_create_5layer.dir/fractal_create_5layer.cpp.i
+.PHONY : fractal_create_5layer.cpp.i
+
+fractal_create_5layer.s: fractal_create_5layer.cpp.s
+.PHONY : fractal_create_5layer.s
+
+# target to generate assembly for a file
+fractal_create_5layer.cpp.s:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_create_5layer.dir/fractal_create_5layer.cpp.s
+.PHONY : fractal_create_5layer.cpp.s
 
 fractal_pix2meters.o: fractal_pix2meters.cpp.o
 .PHONY : fractal_pix2meters.o
@@ -303,6 +369,30 @@ fractal_print_marker.cpp.s:
 	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.s
 .PHONY : fractal_print_marker.cpp.s
 
+fractal_print_marker_20cm.o: fractal_print_marker_20cm.cpp.o
+.PHONY : fractal_print_marker_20cm.o
+
+# target to build an object file
+fractal_print_marker_20cm.cpp.o:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/fractal_print_marker_20cm.cpp.o
+.PHONY : fractal_print_marker_20cm.cpp.o
+
+fractal_print_marker_20cm.i: fractal_print_marker_20cm.cpp.i
+.PHONY : fractal_print_marker_20cm.i
+
+# target to preprocess a source file
+fractal_print_marker_20cm.cpp.i:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/fractal_print_marker_20cm.cpp.i
+.PHONY : fractal_print_marker_20cm.cpp.i
+
+fractal_print_marker_20cm.s: fractal_print_marker_20cm.cpp.s
+.PHONY : fractal_print_marker_20cm.s
+
+# target to generate assembly for a file
+fractal_print_marker_20cm.cpp.s:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir/fractal_print_marker_20cm.cpp.s
+.PHONY : fractal_print_marker_20cm.cpp.s
+
 fractal_tracker.o: fractal_tracker.cpp.o
 .PHONY : fractal_tracker.o
 
@@ -326,6 +416,30 @@ fractal_tracker.s: fractal_tracker.cpp.s
 fractal_tracker.cpp.s:
 	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.s
 .PHONY : fractal_tracker.cpp.s
+
+fractal_tracker_5layer.o: fractal_tracker_5layer.cpp.o
+.PHONY : fractal_tracker_5layer.o
+
+# target to build an object file
+fractal_tracker_5layer.cpp.o:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/fractal_tracker_5layer.cpp.o
+.PHONY : fractal_tracker_5layer.cpp.o
+
+fractal_tracker_5layer.i: fractal_tracker_5layer.cpp.i
+.PHONY : fractal_tracker_5layer.i
+
+# target to preprocess a source file
+fractal_tracker_5layer.cpp.i:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/fractal_tracker_5layer.cpp.i
+.PHONY : fractal_tracker_5layer.cpp.i
+
+fractal_tracker_5layer.s: fractal_tracker_5layer.cpp.s
+.PHONY : fractal_tracker_5layer.s
+
+# target to generate assembly for a file
+fractal_tracker_5layer.cpp.s:
+	cd /home/uni/桌面/opencv_fractal_markers_test/build && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/build.make utils_fractal/CMakeFiles/fractal_tracker_5layer.dir/fractal_tracker_5layer.cpp.s
+.PHONY : fractal_tracker_5layer.cpp.s
 
 fractal_tracker_tvec.o: fractal_tracker_tvec.cpp.o
 .PHONY : fractal_tracker_tvec.o
@@ -364,22 +478,34 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... fractal_create"
+	@echo "... fractal_create_5layer"
 	@echo "... fractal_pix2meters"
 	@echo "... fractal_print_marker"
+	@echo "... fractal_print_marker_20cm"
 	@echo "... fractal_tracker"
+	@echo "... fractal_tracker_5layer"
 	@echo "... fractal_tracker_tvec"
 	@echo "... fractal_create.o"
 	@echo "... fractal_create.i"
 	@echo "... fractal_create.s"
+	@echo "... fractal_create_5layer.o"
+	@echo "... fractal_create_5layer.i"
+	@echo "... fractal_create_5layer.s"
 	@echo "... fractal_pix2meters.o"
 	@echo "... fractal_pix2meters.i"
 	@echo "... fractal_pix2meters.s"
 	@echo "... fractal_print_marker.o"
 	@echo "... fractal_print_marker.i"
 	@echo "... fractal_print_marker.s"
+	@echo "... fractal_print_marker_20cm.o"
+	@echo "... fractal_print_marker_20cm.i"
+	@echo "... fractal_print_marker_20cm.s"
 	@echo "... fractal_tracker.o"
 	@echo "... fractal_tracker.i"
 	@echo "... fractal_tracker.s"
+	@echo "... fractal_tracker_5layer.o"
+	@echo "... fractal_tracker_5layer.i"
+	@echo "... fractal_tracker_5layer.s"
 	@echo "... fractal_tracker_tvec.o"
 	@echo "... fractal_tracker_tvec.i"
 	@echo "... fractal_tracker_tvec.s"

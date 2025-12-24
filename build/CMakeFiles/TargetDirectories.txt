@@ -55,6 +55,9 @@
 /home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/fractal_print_marker.dir
 /home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/fractal_pix2meters.dir
 /home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/fractal_tracker_tvec.dir
+/home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/fractal_create_5layer.dir
+/home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/fractal_print_marker_20cm.dir
+/home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/fractal_tracker_5layer.dir
 /home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/edit_cache.dir
 /home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/rebuild_cache.dir
 /home/uni/桌面/opencv_fractal_markers_test/build/utils_fractal/CMakeFiles/list_install_components.dir
